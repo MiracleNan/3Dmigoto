@@ -14,6 +14,9 @@
 #include "pch.h"
 #include "Geometry.h"
 #include "Bezier.h"
+#include <string>
+#include <stdexcept>
+#include <typeinfo>
 
 using namespace DirectX;
 

@@ -15,7 +15,9 @@
 //#include "nvapi.h"
 #include "Globals.h"
 #include "profiling.h"
-
+#include <string>
+#include <stdexcept>
+#include <typeinfo>
 #include "HackerDevice.h"
 #include "HackerContext.h"
 

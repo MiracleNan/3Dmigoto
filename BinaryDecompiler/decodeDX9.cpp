@@ -7,6 +7,10 @@
 #include "internal_includes/reflect.h"
 #include "internal_includes/debug.h"
 #include "log.h"
+#include <string>
+#include <stdexcept>
+#include <typeinfo>
+
 class DecompileErrorDX9 : public std::exception {} decompileErrorDX9; // 3DMigoto specific
 
 #define FOURCC(a, b, c, d) ((uint32_t)(uint8_t)(a) | ((uint32_t)(uint8_t)(b) << 8) | ((uint32_t)(uint8_t)(c) << 16) | ((uint32_t)(uint8_t)(d) << 24 ))

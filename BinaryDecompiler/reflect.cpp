@@ -2,8 +2,9 @@
 #include "internal_includes/debug.h"
 #include "internal_includes/decode.h"
 #include <stdlib.h>
-
 #include <string>
+#include <stdexcept>
+#include <typeinfo>
 
 static void ReadStringFromTokenStream(const uint32_t* tokens, std::string &str)
 {
